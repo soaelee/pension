@@ -7,6 +7,7 @@ const Wrapper = styled.div`
   justify-content: center;
   @media only screen and (max-width: 768px){
     height: 650px;
+    background: white;
   }
 `
 const Desc = styled.div`
@@ -23,7 +24,7 @@ const Desc = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
+  text-align: center;
   h2, p {
     letter-spacing: .5em;
   }
@@ -34,9 +35,10 @@ const Desc = styled.div`
     bottom: -30px;
   }
   @media only screen and (max-width: 768px) {
-    top: 85%;
-    transform: translateY(-85%);
-    width: 500px;
+    top: 90%;
+    transform: translateY(-90%);
+    right: initial;
+    width: 100%;
     height: 180px;
     background: white;
     border-radius: 0px;
@@ -48,7 +50,7 @@ const Desc = styled.div`
 
 const Img = styled.img`
   width: 100%;
-  max-height: 500px;
+  max-height: 600px;
   @media only screen and (max-width: 768px) {
     max-height: 450px;
   }

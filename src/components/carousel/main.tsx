@@ -10,7 +10,7 @@ const settings = {
   speed: 500, // 넘어가는 속도는 몇으로 할 것인지
   slidesToShow: 1, 
   slidesToScroll: 1,
-  autoplay: true,
+  autoplay: false,
   autoplaySpeed: 3000,
   fade: false,
 };
